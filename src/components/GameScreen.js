@@ -15,7 +15,7 @@ const GameScreen = () => {
         <div className="text-center">
           <h1>KBC Game</h1>
           <h2>Scan QR Code to Join:</h2>
-          <QRCodeCanvas value={window.location.href} />
+          <QRCodeCanvas value="https://indroyd-assignment-pi.vercel.app" />
         </div>
       </div>
       <div className="d-flex flex-row justify-content-center pt-4">
